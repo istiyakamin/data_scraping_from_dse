@@ -11,7 +11,7 @@ function getOperation(){
 
   error_reporting(E_ALL ^ E_WARNING); 
 
-    $conn = pg_connect("host=node29.chieferp.com port=5432 dbname=ai_ta user=postgres password=adminxp123");
+    $conn = pg_connect("host=yourhost.com port=5432 dbname=dbname user=username password=password");
 
     if (!$conn) {
     echo "Datebase Connection Error.\n";
